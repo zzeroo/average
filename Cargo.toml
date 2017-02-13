@@ -1,0 +1,8 @@
+[package]
+name = "average"
+version = "0.1.0"
+authors = ["Stefan Müller <s.mueller@it.kls-glt.de>"]
+
+[dependencies]
+chrono = { version = "0.3", features = ["serde"] }
+rand = "^0"
